@@ -1,0 +1,28 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #f8f9fa, #e9ecef);
+    color: #343a40;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#server-time {
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    padding: 1rem 1.5rem;
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+#server-time::before {
+    content: "Server Time: ";
+    font-weight: bold;
+    color: #495057;
+}
